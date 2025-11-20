@@ -51,7 +51,7 @@ curl -X GET http://localhost:8081/questions/1/
 ```
 DELETE /questions/{id} — удалить вопрос (вместе с ответами)
 ```bash
-curl -X DELETE http://localhost:8080/questions/3/
+curl -X DELETE http://localhost:8081/questions/3/
 ```
 
 POST /questions/{id}/answers/ — добавить ответ к вопросу
